@@ -3,7 +3,7 @@ const mongoose =  require('mongoose');
 const bodyParser = require('body-parser');
 const app = express();
 
-const dbDriver = 'mongodb+srv://sayandas:sd123@cluster0.9eruc.mongodb.net/CRUD?retryWrites=true&w=majority';
+const dbDriver = 'mongodb+srv://<>:<>@cluster0.9eruc.mongodb.net/CRUD?retryWrites=true&w=majority';
 
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(express.json());
